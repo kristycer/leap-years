@@ -14,8 +14,8 @@ All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were n
 ```
 
 
-# ``` 
-Acceptance Criteria
+ ``` 
+# Acceptance Criteria
 
 2.4.1 :001 > require ‘./lib/leap_years.rb’
  => true
@@ -29,7 +29,10 @@ Acceptance Criteria
  => true
 2.4.1 :006 > leap_year?(1500)
  => false
-Extension Options
+ ```
+
+``` 
+# Extension Options
 
 Write a program that takes a start year and an end year and returns an array of all the leap years between.
 

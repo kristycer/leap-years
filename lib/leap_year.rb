@@ -8,3 +8,13 @@ def leap_year(year)
     
     end 
 end 
+
+def get_leap_years(first, last)
+     years = []
+     (first..last).each do |year|
+     if leap_year year
+        years << year
+        end 
+     end 
+    years 
+end 
