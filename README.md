@@ -14,9 +14,8 @@ All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were n
 ```
 
 
- ``` 
 # Example output in irb 
-
+ ``` 
 2.4.1 :001 > require ‘./lib/leap_years.rb’
  => true
 2.4.1 :002 > leap_year?(2000)
@@ -31,8 +30,8 @@ All years not divisible by 4 are NOT leap years (e.g. 2009, 2010 and 2011 were n
  => false
  ```
 
-``` 
 # Extras
+``` 
 
 a program that takes a start year and an end year and returns an array of all the leap years between.
 
